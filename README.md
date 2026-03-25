@@ -20,11 +20,11 @@ This project demonstrates how to use Docker Compose to run a multi-container app
 
 ### Home Page
 ![Home Page](screenshots/home.png)  
-[View full image](https://github.com/Zakarieh29/docker-flask-redis-app/blob/main/screenshots/flask-redis app screenshot1.png)
+[View full image](https://github.com/Zakarieh29/docker-flask-redis-app/blob/main/screenshots/home.png)
 
 ### 🔢 Visit Counter
 ![Visit Counter](screenshots/count.png)  
-[View full image](https://github.com/Zakarieh29/docker-flask-redis-app/blob/main/screenshots/flask-redis app screenshot2.png)
+[View full image](https://github.com/Zakarieh29/docker-flask-redis-app/blob/main/screenshots/count.png)
 
 ---
 
