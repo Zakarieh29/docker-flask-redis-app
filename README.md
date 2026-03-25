@@ -48,16 +48,16 @@ This project demonstrates how to use Docker Compose to run a multi-container app
 │   ├── home.png
 │   └── count.png
 └── README.md
-
+```
 
 ---
 
 ## How It Works
 
-- The Flask app runs in one container  
-- Redis runs in another container  
-- Docker Compose connects both services together  
-- The `/count` route stores and increments visits using Redis  
+- The Flask app runs in one container.  
+- Redis runs in another container.  
+- Docker Compose connects both services together.  
+- The `/count` route stores and increments page visits using Redis.  
 
 ---
 
@@ -68,8 +68,7 @@ This project demonstrates how to use Docker Compose to run a multi-container app
 ```bash
 git clone https://github.com/Zakarieh29/docker-flask-redis-app.git
 cd docker-flask-redis-app
-
----
+```
 
 ### 2. Build and Run the Containers
 
@@ -77,12 +76,18 @@ Use Docker Compose to build the images and start the containers:
 
 ```bash
 docker-compose up --build
+```
 
----
+This command will:
 
-### 3. Open the App
+- Build the Flask and Redis Docker images  
+- Start the containers and connect them via the Docker network  
 
-After building and running the containers, you can access the application in your browser:
+> You may need to run `sudo` before the `docker-compose` command depending on your system setup.
+
+### 3. Access the App
+
+After the containers are running, open your browser:
 
 - **Home page:** [http://localhost:5000](http://localhost:5000)  
 - **Visit counter page:** [http://localhost:5000/count](http://localhost:5000/count)
@@ -90,4 +95,4 @@ After building and running the containers, you can access the application in you
 These routes allow you to:
 
 - View the home page of the Flask app  
-- Track the number of visits using the Redis-powered counter
+- Track the number of visits using the Redis-powered counter  
